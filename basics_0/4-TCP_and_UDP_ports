@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 # This script displays all listening TCP and UDP ports with PID and program name, like the project example
-
 echo "Active Internet connections (only servers)"
 sudo ss -tulnp
-
 echo -e "\nActive UNIX domain sockets (only servers)"
 sudo ss -xlp
